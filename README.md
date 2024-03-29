@@ -85,3 +85,6 @@ public async decodeWebhookEvent(data: any): BrazilBankingWebhook {
 ```
 
 Sinta-se à vontade para explorar essas funções e integrá-las ao seu aplicativo para interação tranquila com o sistema de pagamento PIX do Sicoob. Se encontrar algum problema ou tiver dúvidas, consulte a documentação do SDK ou entre em contato com nossa equipe de suporte para obter assistência. Boa codificação!
+
+## Integre com Facilidade: PIX de Todos os Bancos, Incluindo Sicoob!
+Descubra a API do [Intopays](https://intopays.com) e desbloqueie o poder da integração com todos os bancos, incluindo o Banco Sicoob. Simplifique suas operações financeiras com o PIX e outras transações bancárias em uma plataforma única e eficiente. Explore a API do [Intopays](https://intopays.com) e comece a integrar com facilidade.
