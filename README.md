@@ -1,4 +1,4 @@
-# Sicoob Banking SDK para Integração com PIX
+# Sicoob SDK para Integração com PIX usando NodeJs ou Bun.
 
 Este README fornece uma visão geral das funções disponíveis no Sicoob Banking SDK para integração com o sistema de pagamento PIX. Cada função é detalhada abaixo para que os desenvolvedores entendam seu propósito e uso.
 
