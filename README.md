@@ -13,7 +13,6 @@ Este função lida com o token OAuth necessário para autenticação com a API P
 Exemplo de código:
 
 ```typescript
-Copy code
 async handleOAuthToken(credential: Credential): Promise<Credential> {
   // Implementação da função
 }
@@ -25,7 +24,7 @@ Verifica se o token OAuth expirou. Se o token tiver expirado, retorna true; caso
 Exemplo de código:
 
 ```typescript
-isOauthExpired(credential: Credential): boolean {
+public async isOauthExpired(credential: Credential): boolean {
   // Implementação da função
 }
 ```
@@ -36,18 +35,18 @@ Recupera informações sobre uma cobrança PIX específica com base no ID da tra
 Exemplo de código:
 
 ```typescript
-async findPixCharge(credential: Credential, pix: Pix): Promise<Pix> {
+public async findPixCharge(credential: Credential, pix: Pix): Promise<Pix> {
   // Implementação da função
 }
 ```
-createPixCharge
+### createPixCharge
 
 Cria uma nova cobrança PIX usando as credenciais e detalhes do PIX fornecidos. Esta função inicia uma transação de pagamento PIX.
 
 Exemplo de código:
 
 ```typescript
-async createPixCharge(credential: Credential, pix: Pix): Promise<Pix> {
+public async createPixCharge(credential: Credential, pix: Pix): Promise<Pix> {
   // Implementação da função
 }
 ```
@@ -58,7 +57,7 @@ Configura um webhook para receber notificações sobre transações PIX. Associa
 Exemplo de código:
 
 ```typescript
-async createPixWebhook(credential: Credential, listener: Listener): Promise<any> {
+public async createPixWebhook(credential: Credential, listener: Listener): Promise<any> {
   // Implementação da função
 }
 ```
@@ -69,7 +68,7 @@ Exclui qualquer webhook PIX existente associado às credenciais fornecidas. Esta
 Exemplo de código:
 
 ```typescript
-async deletePixWebhook(credential: Credential, listener: Listener): Promise<any> {
+public async deletePixWebhook(credential: Credential, listener: Listener): Promise<any> {
   // Implementação da função
 }
 ```
@@ -80,7 +79,7 @@ Decodifica e analisa os dados recebidos de um evento de webhook PIX. Transforma 
 Exemplo de código:
 
 ```typescript
-decodeWebhookEvent(data: any): BrazilBankingWebhook {
+public async decodeWebhookEvent(data: any): BrazilBankingWebhook {
   // Implementação da função
 }
 ```
